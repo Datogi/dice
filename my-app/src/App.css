@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: beige;
+    font-size: 20px;
+    font-weight: 400;
+    height: 100vh;
+}
+
+/**********************************************
+*** GENERAL
+**********************************************/
+
+
+
+
+.center {
+    
+  
+    transform: translate(-50%);
+   
+}
+
+/**********************************************
+*** BUTTONS
+**********************************************/
+
+button {
+
+  
+    font-family: Lato;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn-new{
+   
+    transform: translate(-50%);
+}
+
+/* iCONS */
+
+
+
+/* DICE */
+
+.dice{
+    
+    transform: translate(-50%);
+
+}
+
+/**********************************************
+*** PLAYERS
+**********************************************/
+
+
+.active { background-color: #f7f7f7; }
+.active .player-name { font-weight: 300; }
+
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top: -5px;
+}
+
+
+
+
+.player-current-label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #222;
+}
+
+.player-current-score {
+    font-size: 30px;
+}
+
+.winner { background-color: rgb(255, 255, 255); }
+.winner .player-name { font-weight: bold; color: #EB4D4D; }
